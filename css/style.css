@@ -1,0 +1,111 @@
+  *{mrgin:0px; padding:0px; box-sizing: border-box;}
+      html{
+        height:100%;
+      }
+      body{
+        font-family:open sans, Arial, sans-serif;
+        margin:0;
+        height:100%;
+      }
+/* nav style */
+      nav{
+        position:fixed;
+        background-color:#036;
+        width:250px;
+        top:0;
+        left:-250px;
+        height:100%;
+        transition:1s;
+          z-index: 10;
+      }
+      nav ul{
+        list-style: none;
+        margin-top:50px;
+      }
+      nav ul li a {
+        text-decoration:none;
+        color:antiquewhite;
+        display:block;
+        padding:20px 10px;
+      }
+     nav ul h2{
+
+        font-weight: bold;
+        color: aliceblue;
+        text-align: center;
+     }
+      nav ul li :hover{
+        color:cornflowerblue ;
+        text-decoration:none;
+        }
+      .nav-toggle-btn{
+        display:block;
+        width:40px;
+        height:40px;
+        background-color:#ccc;
+        opacity: 0.5;
+        position:absolute;
+        left:250px;
+        text-align:center;
+        line-height:40px;
+      }
+        .nav-toggle-btn i{
+          color:#000
+        }
+
+      .animatedMenu{
+        left:0px;
+      }
+    /* container */
+    header {
+      height: 100%;
+      position: relative;
+      overflow: hidden;
+      background: url(background.jpg) center no-repeat;
+      background-size: cover;
+    }
+    header .content {
+     width: 400px;
+    height: 300px;
+      position: absolute;
+      top:10%;
+      left:60%;
+      z-index: 1;
+    background-color: yellow;
+    opacity: 0.9;
+    border:none;
+    text-align: center;
+    padding: 80px;
+    border-radius: 70px 70px 70px 0;
+        display: none;
+    }
+
+    header h1, header h2 {
+        font-weight: bold;
+        font-size: 50px;
+        
+    }
+    header h2 {
+      text-transform: uppercase;
+      margin-top: -.5em;
+    }
+
+    header .end {
+    width: 300px;
+     height: 200px;
+      position: absolute;
+      left: 10%;
+        
+      bottom: 10%;;
+      background-size: cover;
+      background-color: black;
+      opacity: 0.7;
+        box-shadow: 5px 5px 5px 5px ;
+        border: 2px solid black;
+        text-align-last: center;
+        padding-top: 60px;
+    }
+.end h3{
+    font-weight: bold;
+    color: darkgrey
+}
