@@ -80,6 +80,40 @@
         display: none;
     }
 
+
+@media (max-width: 576px) { 
+    header .content{
+        width: 30%;
+        height: 15%;
+        left: 60%;
+        top: 10%;
+        padding: 0px;
+        padding-top: 30px;
+    }
+    header .content h1{
+        font-size: 22px
+    }
+   
+}
+
+
+@media (max-width: 768px) {
+ header .content{
+        width: 45%;
+        height: 20%;
+        left: 55%;
+        top: 10%;
+        padding: 0px;
+        padding-top: 40px;
+}
+     header .content h1{
+        font-size: 29px
+    }
+    header .end{
+        width: 20%;
+        padding-top: 0px;
+    }
+}
     header h1, header h2 {
         font-weight: bold;
         font-size: 50px;
@@ -95,7 +129,6 @@
      height: 200px;
       position: absolute;
       left: 10%;
-        
       bottom: 10%;;
       background-size: cover;
       background-color: black;
