@@ -43,12 +43,13 @@
         width:80px;
         height:50px;
         background-color:#ccc;
-        opacity: 0.7;
+        opacity: 0.8;
         position:absolute;
         left:250px;
         text-align:center;
         line-height:40px;
-          border-radius: 20%
+          border-radius: 20%;
+          cursor: pointer;
       }
         .nav-toggle-btn i{
           color:#000;
@@ -81,13 +82,8 @@
     text-align: center;
     padding: 80px;
     border-radius: 70px 70px 70px 0;
-        display: none;
+        
     }
-
-
-
-
-
     header h1, header h2 {
         font-weight: bold;
         font-size: 50px;
@@ -203,3 +199,35 @@
 #uses h2{
     font-size: 25px;
 }
+/* ----------------*/
+/*  footer */
+footer{
+    border-top: 2px solid #003366;
+    background-color:#036;
+    color: azure;
+    padding: 10px;
+}
+footer a{
+    text-decoration: none;
+    color: aliceblue;
+}
+footer img{
+    padding-right: 10px;
+}
+/*  scroll top */
+.scrollTop {
+  position: fixed;
+  right: 10%;
+  bottom: 10px;
+  background-color: #BE3F48;
+  padding: 20px;
+  opacity: 0;
+  transition: all 0.4s ease-in-out 0s;
+}
+
+.scrollTop a {
+  font-size: 18px;
+  color: #fff;
+}
+/* --------------------*/
+
