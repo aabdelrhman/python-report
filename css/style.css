@@ -132,7 +132,7 @@
          left:0px;
     }
      header .end h3{
-        font-size: 22px
+        font-size: 20px
     }
    
 }
@@ -156,29 +156,29 @@
         padding-top: 10px;
     }
      header .end h3{
-        font-size: 22px
+        font-size: 20px
     }
 }
 
 @media (max-width: 1000px) { 
     header .content{
-        width: 35%;
+        width: 47%;
         height: 15%;
-        left: 60%;
+        right: 110px;
         top: 10%;
         padding: 0px;
-        padding-top: 40px;
-    }
-    header .content h1{
-        font-size: 40px
-    }
-     header .end{
-        width: 25%;
-        height: 15%;
         padding-top: 30px;
     }
+    header .content h1{
+        font-size: 30px
+    }
+     header .end{
+        width: 28%;
+        height: 10%;
+        padding-top: 10px;
+    }
      header .end h3{
-        font-size: 20px
+        font-size: 12px
     }
 }
 /*------------------------------------*/
