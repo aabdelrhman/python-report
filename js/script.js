@@ -2,7 +2,7 @@ $(document).ready(function(){
   $('.nav-toggle-btn ').click(function(){
     $('nav').toggleClass('animatedMenu');
   });
-  $('.content').on('click',function(){
+  $('nav ul a').on('click',function(){
     $('nav').removeClass('animatedMenu');
   });
     $('.container').on('click',function(){
@@ -11,7 +11,12 @@ $(document).ready(function(){
     $('header').on('click',function(){
     $('nav').removeClass('animatedMenu');
   });
-});
+    function myFunction() {
+        $(".content").show(1000);
+    };
+    setTimeout(myFunction, 200);
+    });
+    
 $(document).ready(function() {
   /******************************
       BOTTOM SCROLL TOP BUTTON

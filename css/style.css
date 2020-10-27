@@ -82,7 +82,7 @@
     text-align: center;
     padding: 80px;
     border-radius: 70px 70px 70px 0;
-        
+        display: none;
     }
     header h1, header h2 {
         font-weight: bold;
